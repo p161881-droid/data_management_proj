@@ -34,9 +34,9 @@ Best model: MLP got perfect scores on this test run. But the test set is very sm
 
 ## Files in This proj
 
-- `assignment1.ipynb` – Jupyter notebook with all the code and explanations.
-- `iris.data` – The Iris dataset file.
-- `README.md`
+- assignment1.ipynb – Jupyter notebook with all the code and explanations.
+- iris.data – The Iris dataset file.
+- README.md
 
 ## How to Run
 
