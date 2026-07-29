@@ -8,16 +8,16 @@ The Iris dataset has 150 samples of iris flowers from three species: setosa, ver
 
 ## What I Did
 
-1. Load data – I downloaded the dataset and loaded it into a Spark DataFrame.  
-2. Prepare data – I changed the species names into numbers (0,1,2) and combined the four feature columns into one feature vector.  
-3. Split data – I split the dataset into training (128 samples) and test (22 samples) sets.  
-4. Train models – I trained three models using Spark MLlib:
+1. Load data : I downloaded the dataset and loaded it into a Spark DataFrame.  
+2. Prepare data : I changed the species names into numbers (0,1,2) and combined the four feature columns into one feature vector.  
+3. Split data :I split the dataset into training (128 samples) and test (22 samples) sets.  
+4. Train models : I trained three models using Spark MLlib:
    - Decision Tree
    - Multilayer Perceptron (MLP)
    - Logistic Regression
-5. Tuning – For Decision Tree and Logistic Regression, I used grid search and 3‑fold cross‑validation to pick the best hyperparameters. For MLP I used a simple structure [4,2,3] without tuning.
-6. Evaluate – I measured accuracy, F1 score, and precision. I also looked at confusion matrices to see where each model makes mistakes.
-7. Compare – I compared the three models and picked the best one.
+5. Tuning : For Decision Tree and Logistic Regression, I used grid search and 3‑fold cross‑validation to pick the best hyperparameters. For MLP I used a simple structure [4,2,3] without tuning.
+6. Evaluate : I measured accuracy, F1 score, and precision. I also looked at confusion matrices to see where each model makes mistakes.
+7. Compare : I compared the three models and picked the best one.
 
 ## Results
 
