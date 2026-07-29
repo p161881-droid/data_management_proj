@@ -32,7 +32,7 @@ And i also calculate confusion matrix :
 
 Best model: MLP got perfect scores on this test run. But the test set is very small (only 22 samples), and I didn't tune the MLP. So Decision Tree is the safer and more explainable choice if I had to pick one for a real project.
 
-## Files in This proj
+## Files in This project
 
 - code.ipynb – Jupyter notebook with all the code and explanations.
 - iris.data – The Iris dataset file.
